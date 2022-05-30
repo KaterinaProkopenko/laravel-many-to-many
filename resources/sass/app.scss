@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+div.my-card{
+    width: 540px;
+    height: 310px;
+
+    img{
+        height: 110px;
+        width: 100%;
+    }
+} 
+
+div.my-card-secondary{
+    img{
+        width: 400px;
+    }
+}
+
+div.add{
+    padding-left: 130px;
+}
+
+input{
+    height: 35px;
+}
